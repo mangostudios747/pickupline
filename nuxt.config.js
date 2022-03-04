@@ -11,7 +11,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'A productivity-boosting addiction manager' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -59,7 +59,13 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en'
+      lang: 'en',
+      theme_color: '#111827'
+    },
+    meta: {
+      name: 'Pickupline',
+      theme_color: '#111827',
+      ogImage: '/display.png'
     },
     icon: {
 

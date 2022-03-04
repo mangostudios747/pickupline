@@ -1,5 +1,6 @@
 {
   "name": "pickupline",
+  "description": "A productivity-boosting addiction manager.",
   "version": "1.0.0",
   "private": true,
   "scripts": {

@@ -1,5 +1,7 @@
 # pickupline
 
+A productivity-boosting addiction manager.
+
 ## Build Setup
 
 ```bash
