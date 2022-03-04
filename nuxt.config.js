@@ -69,9 +69,9 @@ export default {
       theme_color: '#111827',
       twitterCard:'summary_large_image',
       ogImage: {
-        path:'/display.png',
+        path:'/display.png?mar3',
         width:'1200',
-        height:'630',
+        height:'675',
         type:'image/png'
       }
     },
