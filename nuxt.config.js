@@ -12,7 +12,8 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'A productivity-boosting addiction manager' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      { name: 'og:image', content: '/display.png?mar3' }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/icon.png' }
@@ -61,22 +62,18 @@ export default {
     manifest: {
       lang: 'en',
       theme_color: '#111827'
-
     },
     meta: {
-      favicon: true,
       name: 'Pickupline',
       theme_color: '#111827',
       twitterCard:'summary_large_image',
+      ogHost:'https://pickupline.saumya.us',
       ogImage: {
         path:'/display.png?mar3',
         width:'1200',
         height:'675',
         type:'image/png'
       }
-    },
-    icon: {
-
     }
   },
 
