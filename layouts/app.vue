@@ -7,3 +7,10 @@
     <Nuxt class="text-white"/>
 </div>
 </template>
+<script>
+export default {
+  middleware(){
+
+  }
+}
+</script>

@@ -44,6 +44,10 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    ['nuxt-supabase', {
+      supabaseUrl: 'https://vszhwakrzpkvlzltwmhh.supabase.co',
+      supabaseKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZzemh3YWtyenBrdmx6bHR3bWhoIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NDYyNzcyNzYsImV4cCI6MTk2MTg1MzI3Nn0.4eRbTKBIIF9oPrLivrMEThYRLR_mSLHpg9BfIrhutLo'
+    }]
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
