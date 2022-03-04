@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'pickupline',
+    title: 'Pickupline',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -61,11 +61,19 @@ export default {
     manifest: {
       lang: 'en',
       theme_color: '#111827'
+
     },
     meta: {
+      favicon: true,
       name: 'Pickupline',
       theme_color: '#111827',
-      ogImage: '/display.png'
+      twitterCard:'summary_large_image',
+      ogImage: {
+        path:'/display.png',
+        width:'1200',
+        height:'630',
+        type:'image/png'
+      }
     },
     icon: {
 
